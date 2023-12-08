@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital@1&display=swap');
+
+:root {
+    /*Colours*/
+    --background: (#2E69D1);
+    --droplet-blue: (#2DBAD1);
+    --white: (#F6F7FC);
+    --dark-blue: (#4069B2);
+    --black: (#1E1E1E);
+    --action: (#AB57FF);
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lobster', sans-serif;
+    color: var(white);
+}
+
+.heroSection {
+    background-image: url(/Images/heroImg.jpg);
+    object-fit: contain;
+    background-position: center;
+}
+
+main {
+    background-color: var(--background);
+    color: var(--black);
+}
+
+button {
+    background-color: var(--action);
+    color: var(--white);
+}
