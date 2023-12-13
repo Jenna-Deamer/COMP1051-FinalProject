@@ -24,7 +24,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--background);
     color: var(--black);
-  }
+}
 
 .navbar-nav .nav-link,
 .navbar-nav {
@@ -38,9 +38,11 @@ body {
     transition: .5s;
     color: var(--action-hover);
 }
-.logo{
+
+.logo {
     margin-bottom: 12px;
 }
+
 h1,
 h2,
 h3 {
@@ -79,7 +81,7 @@ h3 {
 }
 
 .heroSection {
-    background-image: url(/Images/heroImg.jpg);
+    background-image: url(/Images/heroImg.png);
     min-height: 30vh;
     background-position: center;
     margin-bottom: 23px;
@@ -109,7 +111,7 @@ button:hover:not(.navbar-toggler) {
     background-color: var(--white);
     width: auto;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-   
+
 
 }
 
@@ -121,6 +123,7 @@ button:hover:not(.navbar-toggler) {
     width: 167px;
     height: 250px;
     border: 2px solid var(--black);
+    border-radius: 3px;
 }
 
 .testimonial {
@@ -143,6 +146,25 @@ button:hover:not(.navbar-toggler) {
     width: 26px;
     height: 30px;
 }
+
+/*When Images stack on top of headers change their size*/
+@media (max-width: 766px) {
+    .homeContentBox {
+        text-align: center;
+    }
+
+    .homeImg {
+        width: 200px;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    /* Center the buttons */
+    .homeContentBox button {
+        margin: 0 auto;
+    }
+}
+
 
 /*ABOUT*/
 #aboutContentSection {
@@ -209,7 +231,22 @@ button:hover:not(.navbar-toggler) {
     width: auto;
     margin-bottom: 56px;
 }
+@media (max-width: 990px) {
+    .serviceContentBox {
+        text-align: center;
+    }
 
+    .serviceImg {
+        width: 200px;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    /* Center the buttons */
+    .serviceContentBox button {
+        margin: 0 auto;
+    }
+}
 .serviceContentBox {
     margin-bottom: 12px;
 }
@@ -229,8 +266,9 @@ footer {
     color: var(--white);
     padding: 14px;
     width: 100%;
-    margin-top: auto; /* Pushes the footer to the bottom */
-  }
+    margin-top: auto;
+    /* Pushes the footer to the bottom */
+}
 
 footer h4 {
     color: var(--white);
