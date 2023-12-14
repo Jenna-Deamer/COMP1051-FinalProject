@@ -69,6 +69,7 @@ h3 {
     margin-right: 8px;
     padding-bottom: 45px;
 
+
 }
 
 
@@ -86,6 +87,9 @@ h3 {
     background-position: center;
     margin-bottom: 23px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 button:not(.navbar-toggler) {
@@ -120,7 +124,7 @@ button:hover:not(.navbar-toggler) {
 }
 
 .homeImg {
-    width: 167px;
+    width: 100%;
     height: 250px;
     border: 2px solid var(--black);
     border-radius: 3px;
@@ -137,6 +141,8 @@ button:hover:not(.navbar-toggler) {
 }
 
 .testimonial figure img {
+    width: 60px;
+    height: 60px;
     border-radius: 25px;
 }
 
@@ -231,6 +237,7 @@ button:hover:not(.navbar-toggler) {
     width: auto;
     margin-bottom: 56px;
 }
+
 @media (max-width: 990px) {
     .serviceContentBox {
         text-align: center;
@@ -247,6 +254,7 @@ button:hover:not(.navbar-toggler) {
         margin: 0 auto;
     }
 }
+
 .serviceContentBox {
     margin-bottom: 12px;
 }
