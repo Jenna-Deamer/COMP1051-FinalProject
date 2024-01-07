@@ -240,7 +240,6 @@ button:hover:not(.navbar-toggler) {
     background-color: var(--white);
     padding: 26px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: auto;
     margin-bottom: 56px;
 }
 
@@ -248,13 +247,6 @@ button:hover:not(.navbar-toggler) {
     .serviceContentBox {
         text-align: center;
     }
-
-    .serviceImg {
-        width: 200px;
-        height: auto;
-        border-radius: 4px;
-    }
-
     /* Center the buttons */
     .serviceContentBox button {
         margin: 0 auto;
