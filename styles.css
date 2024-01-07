@@ -124,8 +124,8 @@ button:hover:not(.navbar-toggler) {
 }
 
 .homeImg {
-    width: 100%;
-    height: 250px;
+   width: 250px;
+   height: auto;
     border: 2px solid var(--black);
     border-radius: 3px;
 }
@@ -141,9 +141,9 @@ button:hover:not(.navbar-toggler) {
 }
 
 .testimonial figure img {
-    width: 60px;
-    height: 60px;
-    border-radius: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
 }
 
 .starWrapper>svg {
