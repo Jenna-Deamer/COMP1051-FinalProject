@@ -4,8 +4,8 @@ This project takes a Figma design for a water treatment services website and imp
 
 ## Demo
 
-You can view the live demo here https://comp1051-finalproject.netlify.app/
-You can view the Figma file here https://www.figma.com/file/ymaGippqzFo0cbHn4z5etx/WTS?type=design&node-id=0%3A1&mode=design&t=LWrAO8MDZ5kblrpy-1
+- You can view the live demo here https://comp1051-finalproject.netlify.app/
+- You can view the Figma file here https://www.figma.com/file/ymaGippqzFo0cbHn4z5etx/WTS?type=design&node-id=0%3A1&mode=design&t=LWrAO8MDZ5kblrpy-1
 
 ## Features
 
